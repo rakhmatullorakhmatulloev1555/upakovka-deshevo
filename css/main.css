@@ -378,7 +378,7 @@ nav .navigation ul li a {
 #questions__form {
   padding: 6vw 8vw 6vw 8vw;
   background-image: 
-    url("/img/formzakaz.png");
+    url("../img/formzakaz.png");
   width: 100%;
   height: 100%;
   background-size: cover;
