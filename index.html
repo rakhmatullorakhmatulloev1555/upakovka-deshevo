@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="header_part_1">
+                <div class="address">
+                    <img src="img/Icon.svg">
+                    <p>г. Ногинск, 1-й Кардолентный пр.,д.5</p>
+                </div>
+                <div class="work__time">
+                    <img src="img/icon_log.svg" alt="">
+                    <p>Ежедневно с 9:00 до 18:00</p>
+                </div>
+                <div class="call">
+                    <img src="img/vec1.svg">
+                    <a href="+7(910)333-26-00"> +7(910)333-26-00</a>
+                    <a href="+7(910)333-15-40">+7(910)333-15-40</a>
+                </div>
+                <div class="social__links">
+                    <a href="#"><img src="img/icons8-whatsapp.svg"></a>
+                    <a href="#"><img src="img/icons8-viber.svg"></a>
+                    <a href="#"><img src="img/icons8-telegram.svg"></a>
+                    <a href="#"><img src="img/icons8-vk.svg"></a>
+                    <a href="#"><img src="img/icons8-youtube.svg"></a>
+                </div>
+            </div>
+
+            <nav>
+                <h2 class="logo">Упаковка-дешево.рф</h2>
+                <div class="navigation">
+                    <ul>
+                        <li class="active "><a href="index.html">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Отгрузки</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header_part_3">
+                <nav class="nav_second">
+                    <label for="" class="button">Каталог <span class="fas fa-caret-down"></span></label>
+                </nav>
+                <input class="seart__header" type="text" placeholder="Поиск">
+                <div class="cart__logo">
+                    <img src="img/icon-cart.svg" alt="Cart Icon">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Контейнер для слайд-ш -->
+    <div class="slideshow-container">
+
+        <!-- Изображения во всю ширину экрана  текстом и кнопки -->
+        <div class="mySlides fade">
+            <img src="img/baner.png" style="width:100%">
+            <div class="">
+                <div class="text">
+                    <a class="btn" href="#">Перейти в каталог</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/img_snow_wide.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/img_nature_wide.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Кнопеи след и назад -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Мы предлагаем -->
+
+    <section id="offer" class="offer">
+
+        <div class="offer__heading">
+            <h2>Мы предлагаем</h2>
+        </div>
+        <div class="container offer_container">
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Пакеты</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Фасовочные пакеты <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Флексопечать по ПВД <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Флексопечать по ПНД <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Самоклеющаяся этикетка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Все виды этикеток <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Наклейки, стикеры <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Узкорулонная печать <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="offer_img">
+                    <img src="img/ofer1.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Гипкая упаковка</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать БОПП <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Печать с ламинацией <i class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="offer__cat">Продажа и резка пленки БОПП <i
+                            class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <a class="btn" href="#">Смотреть всё</a>
+        </div>
+    </section>
+
+    <!-- Акции и скидки -->
+    <section id="discounts" class="wrapper">
+        <div class="discount__heading">
+            <h2>Акции и скидки</h2>
+        </div>
+        <div class="container discount__box carousel owl-carousel">
+            <div class="box slide">
+                <div class="offer_img">
+                    <a href=""><img src="img/dis1.jpg" alt=""></a>
+                </div>
+                <div class="offer__text">
+                    <h4>Ламинатная туба</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать тубного ламината</a>
+                    <a href="#" class="offer__cat">Продажа комплектующих </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis2.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Ролевая печать</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать листовок</a>
+                    <a href="#" class="offer__cat">Работа на давальческом сырье </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis3.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Офсетные этикетки</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать этикеток защиты</a>
+                    <a href="#" class="offer__cat">Печать наклеек </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis3.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Офсетные этикетки</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать этикеток защиты</a>
+                    <a href="#" class="offer__cat">Печать наклеек </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis3.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Офсетные этикетки</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать этикеток защиты</a>
+                    <a href="#" class="offer__cat">Печать наклеек </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis3.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Офсетные этикетки</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать этикеток защиты</a>
+                    <a href="#" class="offer__cat">Печать наклеек </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box slide">
+                <div class="offer_img">
+                    <img src="img/dis3.jpg" alt="">
+                </div>
+                <div class="offer__text">
+                    <h4>Офсетные этикетки</h4>
+                    <p>Цена <span>1500 &#8381;</span></p>
+                    <a href="#" class="offer__cat">Печать этикеток защиты</a>
+                    <a href="#" class="offer__cat">Печать наклеек </a>
+                    <a href="#" class="btn" style="text-align: center; margin-top: 10px;">В корзину</a>
+                    <div class="more_info">
+                        <a href="#" class="btn__more">Подробнее</a>
+                        <a href="#" class="btn__bay">Купить в 1 клик</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок форма заказ звонка   Начало-->
+    <section id="questions__form">
+
+        <div class=" form">
+            <h2>Остались вопросы?</h2>
+            <p>Заполните форму и мы вам перезвоним</p>
+            <div class="form__input">
+                <input type="text" placeholder="Ваше ФИО">
+                <input type="text" placeholder="Номер телефона">
+            </div>
+            <p><span>Нажимая на кнопку, вы соглашаетесь с </span>политикой <br>обработки персональных данных.
+            </p>
+            <button type="submit" class="btn">Заказат звонок</button>
+        </div>
+    </section>
+    <!-- Блок форма заказ звонка  Конец-->
+
+    <!-- Features -->
+    <section id="features">
+        <div class="container">
+            <div class="title">
+                <h2>С нами выгодно и удобно работать </h2>
+            </div>
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="far fa-light fa-thumbs-up"></i>
+                    <h3>Качество продукции</h3>
+                    <p>Мы применяем современные технологии и дорогие материалы</p>
+                </div>
+
+                <div class="fea-box">
+                    <i class=" fa-light fa fa-bolt"></i>
+                    <h3>Лучшие цены</h3>
+                    <p>Мы сами производим продукцию и гарантируем лучшую цену</p>
+                </div>
+
+                <div class="fea-box">
+                    <i class=" fa-light fa fa-face-smile"></i>
+                    <h3>Любые партии</h3>
+                    <p>Мы работаем как с малыми тиражами, так и с крупными </p>
+                </div>
+
+                <div class="fea-box">
+                    <i class="fa-light fa fa-star"></i>
+                    <h3>Уникальность</h3>
+                    <p>Изготовим для вас упаковку любой сложности</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок о компании -->
+
+    <section id="about__company">
+        <div class="container">
+            <div class="title">
+                <h2>О компании</h2>
+            </div>
+            <div class="content">
+                <p>Торгово-производственная компания «Упаковка-дешево.рф» работает
+                    на рынке производства картонной упаковки с 2000 года. За это время мы освоили новейшие
+                    технологии, приобрели оборудование для производства картонной упаковки, тары, пакетов. Сплотили
+                    и обучили под своим крылом высококлассных специалистов, приобрели эксклюзивных и надежных
+                    партнеров. Основным направлением деятельности компании является изготовление любого вида
+                    картонной упаковки.
+                </p>
+                <br>
+                <p>
+                    Торгово-производственная компания «Упаковка-дешево.рф» работает
+                    на рынке производства картонной упаковки с 2000 года. За это время мы освоили новейшие
+                    технологии,
+                    приобрели оборудование для производства картонной упаковки, тары, пакетов.
+                    Сплотили и обучили под своим крылом высококлассных специалистов, приобрели эксклюзивных и
+                    надежных партнеров.
+                    Основным направлением деятельности компании является изготовление любого вида картонной
+                    упаковки.
+                </p>
+            </div>
+            <div class="img__section">
+                <img src="img/comimg.jpg" alt="">
+            </div>
+            <div class="info__button">
+                <a class="btn__more">Хочу знать больше</a>
+            </div>
+        </div>
+    </section>
+    <!-- Блок Наши отгрузки Начало -->
+    <section id="shipments">
+        <div class="title">
+            <h2>Наши отгрузки</h2>
+        </div>
+        <div class="container shipment__container">
+
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tpc1.jpg" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tpc.png" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tcp3.jpg" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+
+        </div>
+        <a class="btn shipment_btn">Смотреть все</a>
+    </section>
+    <!-- Блок Наши отгрузки Конец -->
+
+    <!-- Партнери Начало -->
+    <section class="partners wrapper">
+        <div class="title">
+            <h2>Нам доверяют</h2>
+        </div>
+        <div class="container logos_slider">
+            <div class="overflow">
+                <div class="logos_wrapper carousel owl-carousel">
+                    <div class="logo_item slide">
+                        <img src="img/p1.jpg" alt="Logo">
+                        <img src="img/p2.jpg" alt="Logo">
+                    </div>
+                    <div class="logo_item slide">
+                        <img src="img/p3.png" alt="Logo">
+                        <img src="img/p4.jpg" alt="Logo">
+                    </div>
+                    <div class="logo_item slide">
+                        <img src="img/p5.png" alt="Logo">
+                        <img src="img/p6.png" alt="Logo">
+                    </div>
+                    <div class="logo_item slide">
+                        <img src="img/p5.png" alt="Logo">
+                        <img src="img/p6.png" alt="Logo">
+                    </div>
+                    <div class="logo_item slide">
+                        <img src="img/p1.jpg" alt="Logo">
+                        <img src="img/p2.jpg" alt="Logo">
+                    </div>
+                    <div class="logo_item slide">
+                        <img src="img/p1.jpg" alt="Logo">
+                        <img src="img/p2.jpg" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Партнери Конец -->
+
+    <!-- Партнери Начало -->
+    <section id="clients" class="wrapper">
+        <div class="title">
+            <h2> Клиенты любят нас</h2>
+        </div>
+        <div class="container client_slider">
+            <div class="overflow">
+                <div class="client_wrapper carousel owl-carousel">
+                    <div class="cert_item slide">
+                        <img src="img/cer1.jpg" alt="Logo">
+                    </div>
+                    <div class="cert_item slide">
+                        <img src="img/cer2.jpg" alt="Logo">
+                    </div>
+                    <div class="cert_item slide">
+                        <img src="img/cert3.jpg" alt="Logo">
+                    </div>
+                    <div class="cert_item slide">
+                        <img src="img/cer3.jpg" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новости -->
+    <section id="news">
+        <div class="title">
+            <h2>Новости</h2>
+        </div>
+        <div class="container news__container">
+
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tpc1.jpg" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tpc.png" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+            <article class="box">
+                <div class="shipment_img">
+                    <img src="img/tcp3.jpg" alt="">
+                </div>
+                <div class="shipment__text">
+                    <p class="shipment__date">10 мая 2023</p>
+                    <p><span>Отгрузка партии наклеек</span></p>
+                    <p class="description">Безусловно, сплочённость команды профессионалов предопределяет высокую </p>
+                </div>
+            </article>
+
+        </div>
+        <a class="btn shipment_btn">Смотреть все</a>
+    </section>
+
+    <!-- Подвал сайта начадло -->
+    <footer>
+        <div class="container footer_content">
+            <div class="footer-col">
+                <h3>Упаковка-дешево.рф</h3>
+                <li>Каталог</li>
+                <li>О нас</li>
+                <li>Отгрузки</li>
+                <li>Новости</li>
+                <li>Доставка и оплата</li>
+            </div>
+            <div class="footer-col">
+                <h3>Каталог</h3>
+                <li>Гибкая упаковка</li>
+                <li>Бумажная тара</li>
+                <li>Самоклеющаяся этикетка</li>
+                <li>Бумажные и крафт-пакеты</li>
+                <li>Гофротара</li>
+            </div>
+            <div class="footer-col">
+                <h3>Каталог</h3>
+                <li>Пакеты</li>
+                <li>Ролевая печать</li>
+                <li>Ламинатная туба</li>
+                <li>Офисные этикетки</li>
+            </div>
+            <div class="footer-col">
+                <h3>Контакты</h3>
+                <li>г. Ногинск, 1-й Кардолентный пр.,д.5</li>
+                <li>+7(910)333-26-00  +7(910)333-15-40</li>
+                <li>Ежедневно с 9:00 до 18:00</li>
+                <li>upakovka-deshevo@yandex.ru</li>
+                <p>Узнавайте первыми о выгодных предложениях</p>
+                <div class="social__links">
+                    <a href="#"><img src="img/icons8-whatsapp.svg"></a>
+                    <a href="#"><img src="img/icons8-viber.svg"></a>
+                    <a href="#"><img src="img/icons8-telegram.svg"></a>
+                    <a href="#"><img src="img/icons8-vk.svg"></a>
+                    <a href="#"><img src="img/icons8-youtube.svg"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Упаковка дешево в Ногинске &copy 2023 | Все права защищены</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
